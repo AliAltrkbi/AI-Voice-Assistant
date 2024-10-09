@@ -1,0 +1,51 @@
+{"intents": [
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"," "],
+    "responses": ["Sorry, can't understand you", "Sorry, I could not understand your request.", "Not sure I understand"]
+  },
+
+
+  {"tag": "services",
+  "patterns": ["services", "service"],
+  "responses": ["I can play the songs you like on YouTube and I can search Wikipedia for anything you want and I can set an alarm and I can search in google about anything you want"]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["fun activite","fun activites", "activite", "activites"],
+  "responses": [" Have a picnic in the park","Go on a hike or nature walk","Have a game night with friends or family","Attend a cooking class or try a new recipe at home","Visit a local museum or art gallery","Go to a concert or music festival","Have a movie marathon with your favorite films","Take a dance class or try a new form of exercise","Go to an amusement park or water park","Volunteer at a local charity or community event."]
+  },
+
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank", "helpful", "thanks", "helping"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+
+  {"tag": "jokes",
+    "patterns": ["jokes", "joke"],
+    "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why don't skeletons fight each other? They don't have the guts!","What did one wall say to the other wall? I'll meet you at the corner!","Why did the scarecrow win an award? Because he was outstanding in his field!","How does a penguin build its house? Igloos it together!","What do you call fake spaghetti? An impasta!","Why don't vampires go to barbecues? They don't like steak (stake)!","Why don't skeletons fight each other? They don't have the guts!","What do you call a snowman with a six-pack? An abdominal snowman!","How does a computer get drunk? It takes screenshots!"]
+  },
+  {"tag": "games",
+    "patterns": ["group game", "game" ],
+    "responses": ["Charades: Players act out words or phrases without speaking while others guess.","Pictionary: Players draw pictures to represent words or phrases while others guess.","Taboo: Players try to describe a word or phrase without using certain \"taboo\" words.","Two Truths and a Lie: Players share two true statements and one false statement about themselves, and others try to guess the lie.","Mafia/Werewolf: A social deduction game where players try to identify the \"mafia\" or \"werewolves\" among them.","Scattergories: Players come up with words that fit specific categories, starting with a given letter.","The Human Knot: Players stand in a circle, reach across and grab hands with different people, then work together to untangle themselves without letting go.","Heads Up!: A charades-style game where players hold a phone or card to their forehead, guessing the word or phrase based on clues from others.","Trivia Night: Players form teams and answer questions from various categories to test their knowledge.","Duck, Duck, Goose: Players sit in a circle and one person walks around, tapping others on the head, saying \"duck.\" They eventually tap someone and say \"goose,\" and that person has to chase them around the circle."]
+  },
+
+  {"tag": "random_fact",
+    "patterns": ["random fact", "interesting fact", "learn something new"],
+    "responses": [" The shortest war in history was between Britain and Zanzibar in 1896, lasting only 38 minutes.","The world's largest snowflake on record was 15 inches wide and 8 inches thick.","A group of flamingos is called a flamboyance.","The Great Wall of China is not visible from space with the naked eye.","The world's oldest piece of chewing gum is over 9,000 years old.","The largest living organism on Earth is a fungus in Oregon that covers over 2,200 acres.","The longest wedding veil on record was over 22,000 feet long.","The shortest commercial flight in the world is between two Scottish islands and lasts just two minutes.","The worlds largest rubber band ball weighs over 9,000 pounds.","A cat has been the mayor of an Alaskan town for over 15 years."]
+  },
+
+  {"tag": "health",
+    "patterns": ["health","wellness", "health tips", "healthy"],
+    "responses":["Eat a balanced and varied diet that includes plenty of fruits, vegetables, whole grains, lean proteins, and healthy fats.","Stay hydrated by drinking plenty of water throughout the day.","Exercise regularly to maintain a healthy weight, improve cardiovascular health, and reduce stress.","Get enough sleep each night (7-9 hours for adults) to allow your body to rest and recharge.","Practice good hygiene by washing your hands frequently, covering your mouth when you cough or sneeze, and avoiding close contact with sick people.","Manage stress through relaxation techniques such as meditation, deep breathing, or yoga.","Limit alcohol consumption and avoid smoking or using tobacco products.","Schedule regular check-ups with your healthcare provider to monitor your health and detect any potential problems early on.","Protect your skin from the sun by wearing sunscreen, protective clothing, and avoiding prolonged exposure during peak hours.","Stay socially connected with friends and family to promote mental and emotional well-being."]
+  },
+  {"tag": "travel",
+    "patterns": ["travel destinations", "best place","visit", "travel"],
+    "responses":["Paris, France","Tokyo, Japan","New York City, USA","Sydney, Australia","Santorini, Greece","Rio de Janeiro, Brazil","Cape Town, South Africa","Amsterdam, Netherlands","Dubai, United Arab Emirates","Bali, Indonesia"]
+  },
+  {"tag": "motivation",
+    "patterns": ["motivation", "inspirational quote", "motivated"],
+    "responses":["Believe in yourself and your abilities.","Set achievable goals and work towards them consistently.","Surround yourself with positive and supportive people."," Take care of your physical and mental health.","Celebrate your successes, no matter how small they may be.","Learn from your failures and use them as opportunities for growth.","Keep a positive attitude and focus on the good things in life."," Stay curious and continue learning new things."," Practice gratitude and appreciate the blessings in your life.","Remember that every day is a new opportunity to start fresh and make progress towards your goals."]
+  }
+]}
